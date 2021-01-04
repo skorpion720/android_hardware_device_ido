@@ -27,7 +27,8 @@ TARGET_OTA_ASSERT_DEVICE := ido
 PRODUCT_NAME := derp_ido
 BOARD_VENDOR := xiaomi
 PRODUCT_DEVICE := ido
-
+IS_PHONE := true
+DERP_BUILDTYPE := Official
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Build fingerprint
